@@ -1,0 +1,41 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:200,400,500');
+
+//
+// Color system
+//
+
+$primary: #24649e;
+$secondary: #3c8316;
+$tertiary: #faa819;
+$alt-blue: #48a4db;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1566px
+) !default;
+
+$font-family-sans-serif:  "Lato", "Helvetica Neue", sans-serif;
+$headings-font-family: 'Exo 2', sans-serif;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$h1-font-size:                $font-size-base * 3.625 !default;
+$h2-font-size:                $font-size-base * 2.125 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+$body-color:#666666;
+$font-size-base: 1.15rem;
+$line-height-base:            1.65 !default;
+$headings-color: #24649e;
+$headings-line-height: 1.05 !default;
